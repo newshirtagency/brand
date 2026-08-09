@@ -11,14 +11,6 @@ Recommended hosting: sync this folder to your website at /assets/brand/ so files
 stable public URLs (e.g. https://newshirt.agency/assets/brand/nsa-lockup-color.svg) for use in
 HTML, email signatures, and documents. SharePoint remains the master.
 
-WORDMARK ONLY (added 2026-08-09)
-  nsa-wordmark-color.png   navy #313D66 "New Shirt" over ash #A3B5C8 "Agency", for LIGHT grounds
-  nsa-wordmark-white.png   "New Shirt" in Bright #FFFDF7, "Agency" stays ash, for DARK grounds
-The wordmark carries no icon. Use it where the icon would be redundant or too small to read.
-Both are trimmed to content and rendered at 2x a 124px display box (585x248), matching the
-client logo library. The dark variant keeps the two-tone rather than going flat white, because
-the tonal split between the two words is the wordmark.
-
 CLIENT MARKS live in clients/ - see clients/README.md and, canonically,
 NSA SharePoint 00_KnowledgeBase/04_Operations/STANDARD - Client Logo Library.md
 
