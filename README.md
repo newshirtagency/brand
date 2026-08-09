@@ -1,11 +1,18 @@
 New Shirt Agency - Web Logo Kit
 ================================
 Clean, web-ready exports generated from the vector masters in this folder's parent.
-Naming: nsa-<lockup|icon>[-stacked]-<color|navy|white>.<svg|png>
+Naming: nsa-<lockup|icon|wordmark>[-stacked]-<color|navy|white>.<svg|png>
 
 - Prefer the .svg for anything that scales (web, docs, print). PNGs are 1024px wide, transparent.
 - -color = full brand (Navy #313D66 + Ash #A5B7CA). -navy = single-color navy. -white = for dark backgrounds.
 - See _contact-sheet.png for a visual index.
+
+WORDMARK-ONLY (added 2026-08-09): nsa-wordmark-<color|navy|white>.<svg|png> - the two-line
+"New Shirt / Agency" type with the chevron icon removed, viewBox tightened to the type.
+Derived from nsa-lockup-color.svg, so the letterforms are identical to the lockup by
+construction. Use it where the icon is already present or where the lockup's left margin
+wastes horizontal space. PNGs are 1200x509. -color puts Agency in Ash; -navy and -white are
+single-colour, matching the lockup convention.
 
 Recommended hosting: sync this folder to your website at /assets/brand/ so files resolve at
 stable public URLs (e.g. https://newshirt.agency/assets/brand/nsa-lockup-color.svg) for use in
